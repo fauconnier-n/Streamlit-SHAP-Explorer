@@ -1,0 +1,4 @@
+pandas==1.2.0
+catboost==0.24
+streamlit==0.76.0
+shap==0.36.0
