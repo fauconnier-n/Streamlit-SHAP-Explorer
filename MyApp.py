@@ -41,7 +41,7 @@ st.markdown(
 )   
 st.info(
     " The model used is a **CatBoost Multiclassifier**."
-    " More details on the model training and  in [**this Notebook**](https://)"
+    " More SHAP explanations and details on the model in [**this Notebook**](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/notebook.ipynb)"
 )
 
 # Input sidebar subheader
@@ -151,7 +151,7 @@ From SHAP documentation:
 - *At the bottom of the plot, the observations converge at explainer.expected_value (the base value)*""")
 
 # Set up 2 columns to display in the body of the app
-st.subheader('Dependence plots: explore the SHAP values of the evaluation dataset')
+st.subheader('Dependence plot: SHAP values of the evaluation dataset')
 colbis1, colbis2, colbis3 = st.beta_columns(3)
 
 
