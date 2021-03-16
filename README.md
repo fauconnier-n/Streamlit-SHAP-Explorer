@@ -34,4 +34,4 @@ Model running in the app:
 *Beeswarm plot for genre = EDM : shows feature importance in every prediction made on the evaluation set*  
 
 ![](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/images/dependence_plots.png)  
-*More dependence plot, all accessible one by one on the app*  
+*More dependence plots, all accessible one by one on the app*  
