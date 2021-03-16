@@ -17,15 +17,15 @@ The dockerfile used to build the image can be found at the root of this reposito
 In the **[accompanying notebook](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/notebook.ipynb)**, Cross Validation and GridSearch are used to find the hyperparameters.  
 However, the app isn't running the model offering the best accuracy, but a model trained with way less iterations. That way the predictions are faster (less trees), and the model is less prone to overfitting.
 
-Best Hyperparameters found:
-*{'depth': 6,
- 'iterations': 1000,
- 'learning_rate': 0.1}*
+Best Hyperparameters found:  
+*{'depth': 6,  
+ 'iterations': 1000,  
+ 'learning_rate': 0.1}*  
  
-Model running in the app:
-*{'depth': 6,
- 'iterations': 50,
- 'learning_rate': 0.125}*
+Model running in the app:  
+*{'depth': 6,  
+ 'iterations': 50,  
+ 'learning_rate': 0.125}*  
 
 ***
 
