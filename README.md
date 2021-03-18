@@ -5,7 +5,7 @@ Predict the genre of a song, interactively explore the corresponding SHAP values
 The docker image can be found on [DockerHub](https://hub.docker.com/repository/docker/nfauco/streamlit-shap).  
 The dockerfile used to build the image can be found at the root of this repository.  
 
-## Access the Web Application: [HERE](ec2-13-36-127-69.eu-west-3.compute.amazonaws.com)  
+## Access the Web Application: [HERE](http://ec2-13-36-127-69.eu-west-3.compute.amazonaws.com)  
 ![](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/images/MyApp.jpg) 
 *- the sidebar on the left contains fields to input the features of a song and get the corresponding genre predictions outputed by the model*  
 *- the first two plots use the SHAP package to plot the SHAP values and feature importance of the inputed song*  
