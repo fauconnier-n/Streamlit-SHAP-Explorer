@@ -9,7 +9,7 @@ The dockerfile used to build the image can be found at the root of this reposito
 ![](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/images/MyApp.jpg) 
 *- the sidebar on the left contains fields to input the features of a song and get the corresponding genre predictions outputed by the model*  
 *- the first two plots use the SHAP package to plot the Shapley values and feature importance of the inputed song*  
-*- the third one allows to select two features and a genre to show the corresponding Dependence Plot of the SHAP values of every predictions made on the evaluation dataset*  
+*- the third one allows to select two features and a genre to show the corresponding Dependence Plot of the Shapley values of every predictions made on the evaluation dataset*  
 
 ***
 
