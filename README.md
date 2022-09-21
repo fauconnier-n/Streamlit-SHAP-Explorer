@@ -14,7 +14,7 @@ The dockerfile used to build the image can be found at the root of this reposito
 ***
 
 ### The model
-In the **[accompanying notebook](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/notebook.ipynb)**, Cross Validation and GridSearch are used for hyperparameters optimization.  
+In the **[notebook](https://github.com/fauconnier-n/Streamlit-SHAP-Explorer/blob/main/notebook.ipynb)**, Cross Validation and GridSearch are used for hyperparameters optimization.  
 However, the app isn't running the model offering the best accuracy, but a model trained with way less iterations. It makes the predictions are faster (less trees), and the model is less prone to overfitting.
 
 Best Hyperparameters found (~58% Accuracy):  
